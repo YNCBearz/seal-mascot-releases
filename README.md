@@ -21,6 +21,8 @@ irm https://github.com/YNCBearz/seal-mascot-releases/releases/latest/download/in
 - 重新執行同一行指令即可更新到最新版，設定與對話資料會保留。
 - 安裝後在 App 的設定頁按「安裝／更新」整合 Claude Code／Codex，然後重啟 CLI。
 - macOS 安裝在 `/Applications`；Windows 安裝在目前使用者，不需系統管理員權限。
+- 從 1.x 更新到 2.x：重新執行同一行指令即可，角色設定、對話、視窗位置與 hook 整合都會保留。2.x 改用系統內建的 WebView，安裝檔從約 124 MB 縮小到約 5 MB（Windows 約 2 MB）。
+- Windows 需要 Microsoft Edge WebView2（Windows 10／11 通常已內建）；若沒有，安裝程式會自動下載，需要網路連線。
 - 從舊版 Agent Mascot 更新：直接執行上面的指令，會自動移除舊 App，並保留角色設定、對話與 hook 整合。
 - App 尚未簽章。直接用瀏覽器下載 `.dmg`／`.exe` 會被 macOS Gatekeeper 或 Windows SmartScreen 攔下，建議使用上面的指令安裝。
 
